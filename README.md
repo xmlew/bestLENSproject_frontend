@@ -41,6 +41,14 @@ Images that you want to use e.g. Profile Images are uploaded to an IPFS server a
 Furthermore, you can explore the hackathons and posts that are available, which are (at the moment partially) queried from the chain.
 We use a flask server that only provides an Insight API to generate graphs which are easy to read and represent interesting facts. Those gaphs are then shown in the frontend (deployment still outstanding). This way we can process the data into the right formats quickly and efficiently without the rather clunky and limited graph APIs that JS offers.
 
+# Data Visualization Mockup
+
+We've also done a very simple mockup of data visualization: https://github.com/Best-LENS-project/data-visualization
+
+Currently, it shows a barplot in the local server in the homepage featuring dummy data, but we intend to use real-time data moving forward leveraging on the powerful data visualization libraries present in Python, such as Matplotlib and Seaborn. The API will be deployed on flask.
+
+In the future, we're looking into features such as displaying votes in a detailed statistics page alongside interesting insights such as the percentage of votes the top X teams have obtained.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
